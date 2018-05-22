@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+article, aside, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+#logo{
+	background: #fff;
+    width:40%;
+    margin: auto;   
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top:100px;
+   
+}
+#search_form{
+   	background: #fff;
+	width:40%;
+	margin: auto;	
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+input{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+input[type="text"]{
+	width: 100%;
+}
+
+#buttons{
+	padding-top: 40px;
+}
+
+input[type="submit"]{
+	height: 36px;
+	line-height: 27px;
+}
